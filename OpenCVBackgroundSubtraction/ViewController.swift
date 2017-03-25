@@ -9,6 +9,14 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    
+    @IBOutlet weak var imageView:UIImageView!
+    @IBOutlet weak var rectButton:UIButton!
+    @IBOutlet weak var markBackButton:UIButton!
+    @IBOutlet weak var markFrontButton:UIButton!
+    
+    @IBOutlet weak var navBarButton:UIBarButtonItem!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,5 +29,7 @@ class ViewController: UIViewController {
     }
 
 
+    
+    
 }
 

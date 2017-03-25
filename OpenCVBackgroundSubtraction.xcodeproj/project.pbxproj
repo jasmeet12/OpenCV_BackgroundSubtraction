@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3110D859A0C5225F5F5C3316 /* Pods_OpenCVBackgroundSubtractionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 941845A0B8CFB2EBD8E2F289 /* Pods_OpenCVBackgroundSubtractionUITests.framework */; };
+		3C405BF33AEF203C2832D0B4 /* Pods_OpenCVBackgroundSubtractionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6214F14E67F767E73A122A7C /* Pods_OpenCVBackgroundSubtractionTests.framework */; };
 		5D38B9CD1E85EAC3009634E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D38B9CC1E85EAC3009634E1 /* AppDelegate.swift */; };
 		5D38B9CF1E85EAC3009634E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D38B9CE1E85EAC3009634E1 /* ViewController.swift */; };
 		5D38B9D21E85EAC3009634E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D38B9D01E85EAC3009634E1 /* Main.storyboard */; };
@@ -14,6 +16,9 @@
 		5D38B9D71E85EAC3009634E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D38B9D51E85EAC3009634E1 /* LaunchScreen.storyboard */; };
 		5D38B9E21E85EAC3009634E1 /* OpenCVBackgroundSubtractionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D38B9E11E85EAC3009634E1 /* OpenCVBackgroundSubtractionTests.swift */; };
 		5D38B9ED1E85EAC3009634E1 /* OpenCVBackgroundSubtractionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D38B9EC1E85EAC3009634E1 /* OpenCVBackgroundSubtractionUITests.swift */; };
+		5D38B9FF1E862E77009634E1 /* CVWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5D38B9FB1E862E77009634E1 /* CVWrapper.mm */; };
+		5D38BA001E862E77009634E1 /* UIImage+OpenCV.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5D38B9FE1E862E77009634E1 /* UIImage+OpenCV.mm */; };
+		D8FD7D43BF5810FA59D1E20B /* Pods_OpenCVBackgroundSubtraction.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBF70B7E772A0DF6707923D2 /* Pods_OpenCVBackgroundSubtraction.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1149FC479301E1270DC748F8 /* Pods-OpenCVBackgroundSubtractionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenCVBackgroundSubtractionTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenCVBackgroundSubtractionTests/Pods-OpenCVBackgroundSubtractionTests.debug.xcconfig"; sourceTree = "<group>"; };
+		185DF0ED2452049E7B17D6C2 /* Pods-OpenCVBackgroundSubtractionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenCVBackgroundSubtractionTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenCVBackgroundSubtractionTests/Pods-OpenCVBackgroundSubtractionTests.release.xcconfig"; sourceTree = "<group>"; };
+		18B584780CF55728199529FB /* Pods-OpenCVBackgroundSubtraction.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenCVBackgroundSubtraction.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenCVBackgroundSubtraction/Pods-OpenCVBackgroundSubtraction.debug.xcconfig"; sourceTree = "<group>"; };
+		3E7924D1458142A59CE1501D /* Pods-OpenCVBackgroundSubtractionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenCVBackgroundSubtractionUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenCVBackgroundSubtractionUITests/Pods-OpenCVBackgroundSubtractionUITests.release.xcconfig"; sourceTree = "<group>"; };
 		5D38B9C91E85EAC3009634E1 /* OpenCVBackgroundSubtraction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenCVBackgroundSubtraction.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D38B9CC1E85EAC3009634E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5D38B9CE1E85EAC3009634E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,16 @@
 		5D38B9E81E85EAC3009634E1 /* OpenCVBackgroundSubtractionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenCVBackgroundSubtractionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D38B9EC1E85EAC3009634E1 /* OpenCVBackgroundSubtractionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenCVBackgroundSubtractionUITests.swift; sourceTree = "<group>"; };
 		5D38B9EE1E85EAC3009634E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D38B9FA1E862E76009634E1 /* OpenCVBackgroundSubtraction-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenCVBackgroundSubtraction-Bridging-Header.h"; sourceTree = "<group>"; };
+		5D38B9FB1E862E77009634E1 /* CVWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CVWrapper.mm; sourceTree = "<group>"; };
+		5D38B9FC1E862E77009634E1 /* CVWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVWrapper.h; sourceTree = "<group>"; };
+		5D38B9FD1E862E77009634E1 /* UIImage+OpenCV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+OpenCV.h"; sourceTree = "<group>"; };
+		5D38B9FE1E862E77009634E1 /* UIImage+OpenCV.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "UIImage+OpenCV.mm"; sourceTree = "<group>"; };
+		6214F14E67F767E73A122A7C /* Pods_OpenCVBackgroundSubtractionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenCVBackgroundSubtractionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		941845A0B8CFB2EBD8E2F289 /* Pods_OpenCVBackgroundSubtractionUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenCVBackgroundSubtractionUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB482580DCE138B3F1F2042C /* Pods-OpenCVBackgroundSubtraction.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenCVBackgroundSubtraction.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenCVBackgroundSubtraction/Pods-OpenCVBackgroundSubtraction.release.xcconfig"; sourceTree = "<group>"; };
+		D16B49A3AE2804395253FE08 /* Pods-OpenCVBackgroundSubtractionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenCVBackgroundSubtractionUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenCVBackgroundSubtractionUITests/Pods-OpenCVBackgroundSubtractionUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FBF70B7E772A0DF6707923D2 /* Pods_OpenCVBackgroundSubtraction.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenCVBackgroundSubtraction.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8FD7D43BF5810FA59D1E20B /* Pods_OpenCVBackgroundSubtraction.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C405BF33AEF203C2832D0B4 /* Pods_OpenCVBackgroundSubtractionTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +89,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3110D859A0C5225F5F5C3316 /* Pods_OpenCVBackgroundSubtractionUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0EEA8B9051B146513D2846E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18B584780CF55728199529FB /* Pods-OpenCVBackgroundSubtraction.debug.xcconfig */,
+				BB482580DCE138B3F1F2042C /* Pods-OpenCVBackgroundSubtraction.release.xcconfig */,
+				1149FC479301E1270DC748F8 /* Pods-OpenCVBackgroundSubtractionTests.debug.xcconfig */,
+				185DF0ED2452049E7B17D6C2 /* Pods-OpenCVBackgroundSubtractionTests.release.xcconfig */,
+				D16B49A3AE2804395253FE08 /* Pods-OpenCVBackgroundSubtractionUITests.debug.xcconfig */,
+				3E7924D1458142A59CE1501D /* Pods-OpenCVBackgroundSubtractionUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		5D38B9C01E85EAC3009634E1 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +116,8 @@
 				5D38B9E01E85EAC3009634E1 /* OpenCVBackgroundSubtractionTests */,
 				5D38B9EB1E85EAC3009634E1 /* OpenCVBackgroundSubtractionUITests */,
 				5D38B9CA1E85EAC3009634E1 /* Products */,
+				0EEA8B9051B146513D2846E6 /* Pods */,
+				E5CD0A2329BE2C2516250E74 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +136,15 @@
 			children = (
 				5D38B9CC1E85EAC3009634E1 /* AppDelegate.swift */,
 				5D38B9CE1E85EAC3009634E1 /* ViewController.swift */,
+				5D38B9FB1E862E77009634E1 /* CVWrapper.mm */,
+				5D38B9FC1E862E77009634E1 /* CVWrapper.h */,
+				5D38B9FD1E862E77009634E1 /* UIImage+OpenCV.h */,
+				5D38B9FE1E862E77009634E1 /* UIImage+OpenCV.mm */,
 				5D38B9D01E85EAC3009634E1 /* Main.storyboard */,
 				5D38B9D31E85EAC3009634E1 /* Assets.xcassets */,
 				5D38B9D51E85EAC3009634E1 /* LaunchScreen.storyboard */,
 				5D38B9D81E85EAC3009634E1 /* Info.plist */,
+				5D38B9FA1E862E76009634E1 /* OpenCVBackgroundSubtraction-Bridging-Header.h */,
 			);
 			path = OpenCVBackgroundSubtraction;
 			sourceTree = "<group>";
@@ -125,6 +167,16 @@
 			path = OpenCVBackgroundSubtractionUITests;
 			sourceTree = "<group>";
 		};
+		E5CD0A2329BE2C2516250E74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBF70B7E772A0DF6707923D2 /* Pods_OpenCVBackgroundSubtraction.framework */,
+				6214F14E67F767E73A122A7C /* Pods_OpenCVBackgroundSubtractionTests.framework */,
+				941845A0B8CFB2EBD8E2F289 /* Pods_OpenCVBackgroundSubtractionUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5D38B9F11E85EAC3009634E1 /* Build configuration list for PBXNativeTarget "OpenCVBackgroundSubtraction" */;
 			buildPhases = (
+				92E8B1862927FB3AEB3E9854 /* [CP] Check Pods Manifest.lock */,
 				5D38B9C51E85EAC3009634E1 /* Sources */,
 				5D38B9C61E85EAC3009634E1 /* Frameworks */,
 				5D38B9C71E85EAC3009634E1 /* Resources */,
+				E4CE6095DDE520EC7085B0D7 /* [CP] Embed Pods Frameworks */,
+				3C9A5E299A96FF8DC563F045 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +204,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5D38B9F41E85EAC3009634E1 /* Build configuration list for PBXNativeTarget "OpenCVBackgroundSubtractionTests" */;
 			buildPhases = (
+				C9C2E8A7A5E8375055A8C608 /* [CP] Check Pods Manifest.lock */,
 				5D38B9D91E85EAC3009634E1 /* Sources */,
 				5D38B9DA1E85EAC3009634E1 /* Frameworks */,
 				5D38B9DB1E85EAC3009634E1 /* Resources */,
+				4F67A764C27F1E5BA336EF19 /* [CP] Embed Pods Frameworks */,
+				F413842B0D876C126E5C8525 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5D38B9F71E85EAC3009634E1 /* Build configuration list for PBXNativeTarget "OpenCVBackgroundSubtractionUITests" */;
 			buildPhases = (
+				51B50102ECEA38CD4A97E705 /* [CP] Check Pods Manifest.lock */,
 				5D38B9E41E85EAC3009634E1 /* Sources */,
 				5D38B9E51E85EAC3009634E1 /* Frameworks */,
 				5D38B9E61E85EAC3009634E1 /* Resources */,
+				19F085E1642022060887D411 /* [CP] Embed Pods Frameworks */,
+				C5EF60DD552F8D7E1DC03D26 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +254,8 @@
 				TargetAttributes = {
 					5D38B9C81E85EAC3009634E1 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = EVAFYVHN78;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					5D38B9DC1E85EAC3009634E1 = {
@@ -254,11 +317,151 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		19F085E1642022060887D411 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenCVBackgroundSubtractionUITests/Pods-OpenCVBackgroundSubtractionUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C9A5E299A96FF8DC563F045 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenCVBackgroundSubtraction/Pods-OpenCVBackgroundSubtraction-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F67A764C27F1E5BA336EF19 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenCVBackgroundSubtractionTests/Pods-OpenCVBackgroundSubtractionTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51B50102ECEA38CD4A97E705 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		92E8B1862927FB3AEB3E9854 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C5EF60DD552F8D7E1DC03D26 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenCVBackgroundSubtractionUITests/Pods-OpenCVBackgroundSubtractionUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9C2E8A7A5E8375055A8C608 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E4CE6095DDE520EC7085B0D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenCVBackgroundSubtraction/Pods-OpenCVBackgroundSubtraction-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F413842B0D876C126E5C8525 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenCVBackgroundSubtractionTests/Pods-OpenCVBackgroundSubtractionTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5D38B9C51E85EAC3009634E1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D38BA001E862E77009634E1 /* UIImage+OpenCV.mm in Sources */,
+				5D38B9FF1E862E77009634E1 /* CVWrapper.mm in Sources */,
 				5D38B9CF1E85EAC3009634E1 /* ViewController.swift in Sources */,
 				5D38B9CD1E85EAC3009634E1 /* AppDelegate.swift in Sources */,
 			);
@@ -408,30 +611,40 @@
 		};
 		5D38B9F21E85EAC3009634E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18B584780CF55728199529FB /* Pods-OpenCVBackgroundSubtraction.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = EVAFYVHN78;
 				INFOPLIST_FILE = OpenCVBackgroundSubtraction/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jasmeet.OpenCVBackgroundSubtraction;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OpenCVBackgroundSubtraction/OpenCVBackgroundSubtraction-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		5D38B9F31E85EAC3009634E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB482580DCE138B3F1F2042C /* Pods-OpenCVBackgroundSubtraction.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = EVAFYVHN78;
 				INFOPLIST_FILE = OpenCVBackgroundSubtraction/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jasmeet.OpenCVBackgroundSubtraction;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OpenCVBackgroundSubtraction/OpenCVBackgroundSubtraction-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		5D38B9F51E85EAC3009634E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1149FC479301E1270DC748F8 /* Pods-OpenCVBackgroundSubtractionTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -446,6 +659,7 @@
 		};
 		5D38B9F61E85EAC3009634E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 185DF0ED2452049E7B17D6C2 /* Pods-OpenCVBackgroundSubtractionTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -460,6 +674,7 @@
 		};
 		5D38B9F81E85EAC3009634E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D16B49A3AE2804395253FE08 /* Pods-OpenCVBackgroundSubtractionUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = OpenCVBackgroundSubtractionUITests/Info.plist;
@@ -473,6 +688,7 @@
 		};
 		5D38B9F91E85EAC3009634E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E7924D1458142A59CE1501D /* Pods-OpenCVBackgroundSubtractionUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = OpenCVBackgroundSubtractionUITests/Info.plist;
@@ -503,6 +719,7 @@
 				5D38B9F31E85EAC3009634E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5D38B9F41E85EAC3009634E1 /* Build configuration list for PBXNativeTarget "OpenCVBackgroundSubtractionTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +728,7 @@
 				5D38B9F61E85EAC3009634E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5D38B9F71E85EAC3009634E1 /* Build configuration list for PBXNativeTarget "OpenCVBackgroundSubtractionUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +737,7 @@
 				5D38B9F91E85EAC3009634E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
