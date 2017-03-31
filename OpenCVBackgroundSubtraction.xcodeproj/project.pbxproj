@@ -18,6 +18,7 @@
 		5D38B9ED1E85EAC3009634E1 /* OpenCVBackgroundSubtractionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D38B9EC1E85EAC3009634E1 /* OpenCVBackgroundSubtractionUITests.swift */; };
 		5D38B9FF1E862E77009634E1 /* CVWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5D38B9FB1E862E77009634E1 /* CVWrapper.mm */; };
 		5D38BA001E862E77009634E1 /* UIImage+OpenCV.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5D38B9FE1E862E77009634E1 /* UIImage+OpenCV.mm */; };
+		5D9EE3F01E87750600B285A3 /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9EE3EF1E87750600B285A3 /* OverlayView.swift */; };
 		D8FD7D43BF5810FA59D1E20B /* Pods_OpenCVBackgroundSubtraction.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBF70B7E772A0DF6707923D2 /* Pods_OpenCVBackgroundSubtraction.framework */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +62,7 @@
 		5D38B9FC1E862E77009634E1 /* CVWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVWrapper.h; sourceTree = "<group>"; };
 		5D38B9FD1E862E77009634E1 /* UIImage+OpenCV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+OpenCV.h"; sourceTree = "<group>"; };
 		5D38B9FE1E862E77009634E1 /* UIImage+OpenCV.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "UIImage+OpenCV.mm"; sourceTree = "<group>"; };
+		5D9EE3EF1E87750600B285A3 /* OverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverlayView.swift; sourceTree = "<group>"; };
 		6214F14E67F767E73A122A7C /* Pods_OpenCVBackgroundSubtractionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenCVBackgroundSubtractionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		941845A0B8CFB2EBD8E2F289 /* Pods_OpenCVBackgroundSubtractionUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenCVBackgroundSubtractionUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB482580DCE138B3F1F2042C /* Pods-OpenCVBackgroundSubtraction.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenCVBackgroundSubtraction.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenCVBackgroundSubtraction/Pods-OpenCVBackgroundSubtraction.release.xcconfig"; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 			children = (
 				5D38B9CC1E85EAC3009634E1 /* AppDelegate.swift */,
 				5D38B9CE1E85EAC3009634E1 /* ViewController.swift */,
+				5D9EE3EF1E87750600B285A3 /* OverlayView.swift */,
 				5D38B9FB1E862E77009634E1 /* CVWrapper.mm */,
 				5D38B9FC1E862E77009634E1 /* CVWrapper.h */,
 				5D38B9FD1E862E77009634E1 /* UIImage+OpenCV.h */,
@@ -464,6 +467,7 @@
 				5D38B9FF1E862E77009634E1 /* CVWrapper.mm in Sources */,
 				5D38B9CF1E85EAC3009634E1 /* ViewController.swift in Sources */,
 				5D38B9CD1E85EAC3009634E1 /* AppDelegate.swift in Sources */,
+				5D9EE3F01E87750600B285A3 /* OverlayView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -22,9 +22,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9gv-iD-thz">
-                                <rect key="frame" x="0.0" y="44" width="375" height="561"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jyN-oS-dKe">
                                 <rect key="frame" x="0.0" y="609" width="110" height="58"/>
                                 <constraints>
@@ -38,6 +35,9 @@
                                     <constraint firstAttribute="height" constant="61" id="45n-8j-stv"/>
                                 </constraints>
                                 <state key="normal" title="Foreground"/>
+                                <connections>
+                                    <action selector="markForegroundWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VgE-YA-AoQ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xop-AX-hS7">
                                 <rect key="frame" x="125" y="605" width="108" height="62"/>
@@ -45,10 +45,15 @@
                                     <constraint firstAttribute="height" constant="62" id="AOA-4k-gIR"/>
                                 </constraints>
                                 <state key="normal" title="Background"/>
+                                <connections>
+                                    <action selector="markBackgroundWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LUd-9u-APF"/>
+                                </connections>
                             </button>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bn0-PD-3e9">
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bn0-PD-3e9">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="4P6-Da-j8V"/>
+                                </constraints>
                                 <items>
                                     <navigationItem title="Remove Background" id="l4D-lA-Upu">
                                         <barButtonItem key="rightBarButtonItem" title="Edit" id="B2A-TB-dCy"/>
@@ -58,15 +63,14 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="9gv-iD-thz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="2BX-2v-5Ts"/>
                             <constraint firstItem="uH5-PE-V9D" firstAttribute="leading" secondItem="Xop-AX-hS7" secondAttribute="trailing" id="BwZ-7e-ryJ"/>
                             <constraint firstItem="jyN-oS-dKe" firstAttribute="width" secondItem="uH5-PE-V9D" secondAttribute="width" id="NfZ-3Y-7H4"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Bn0-PD-3e9" secondAttribute="trailing" constant="-16" id="TVz-DB-Oqb"/>
                             <constraint firstAttribute="trailingMargin" secondItem="uH5-PE-V9D" secondAttribute="trailing" id="UID-8s-6AJ"/>
-                            <constraint firstItem="jyN-oS-dKe" firstAttribute="top" secondItem="9gv-iD-thz" secondAttribute="bottom" id="XY7-oP-abg"/>
-                            <constraint firstItem="9gv-iD-thz" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-20" id="e00-mj-1wq"/>
+                            <constraint firstItem="Bn0-PD-3e9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="Z01-4F-Aia"/>
                             <constraint firstItem="jyN-oS-dKe" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="h9A-fd-Ma0"/>
                             <constraint firstItem="uH5-PE-V9D" firstAttribute="width" secondItem="Xop-AX-hS7" secondAttribute="width" id="iWb-XW-DfH"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="9gv-iD-thz" secondAttribute="trailing" constant="-16" id="lb6-PW-8IB"/>
+                            <constraint firstItem="Bn0-PD-3e9" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-20" id="pVs-QD-BCw"/>
                             <constraint firstItem="Xop-AX-hS7" firstAttribute="leading" secondItem="jyN-oS-dKe" secondAttribute="trailing" id="sYx-hZ-yMq"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="uH5-PE-V9D" secondAttribute="bottom" id="sjs-dl-WV8"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Xop-AX-hS7" secondAttribute="bottom" id="wap-gT-1dI"/>
@@ -74,7 +78,6 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="imageView" destination="9gv-iD-thz" id="HZE-5J-amf"/>
                         <outlet property="markBackButton" destination="Xop-AX-hS7" id="Bey-ZE-dRQ"/>
                         <outlet property="markFrontButton" destination="uH5-PE-V9D" id="n6Z-WY-Nd9"/>
                         <outlet property="navBarButton" destination="B2A-TB-dCy" id="C6n-s0-b9z"/>
